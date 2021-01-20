@@ -26,6 +26,6 @@
     "escape-regex-string": "^1.0.6"
   },
   "files": [
-    "src/lib"
+    "src/dist"
   ]
 }
