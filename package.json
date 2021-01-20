@@ -24,5 +24,8 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "escape-regex-string": "^1.0.6"
-  }
+  },
+  "files": [
+    "src"
+  ]
 }
