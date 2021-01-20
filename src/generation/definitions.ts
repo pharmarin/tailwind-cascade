@@ -1,5 +1,5 @@
-import { flatten } from "lodash";
 import expand from "brace-expansion";
+import { flatten } from "lodash";
 
 /** Expand brace expressions */
 function x(...patterns: string[]): string[] {
@@ -39,7 +39,8 @@ export type DefinitionNode<T> = {
 // TODO: Pull out more shared parts
 const Standard = {
   Size: {
-    Numbers: "{0,1,2,3,4,5,6,8,10,12,16,20,24,32,40,48,56,64}",
+    Numbers:
+      "{0,0.5,0.8,1,1.5,2,2.5,3,3.5,4,5,6,7,8,9,10,11,12,14,16,20,24,28,32,36,40,44,48,52,56,60,64,72,80,96}",
     names: "{xs,sm,md,lg,{,{2..6}}xl}",
   },
   Ratios: "{1/2,{1..2}/3,{1..3}/4,{1..4}/5,{1..5}/6,{1..11}/12}",
